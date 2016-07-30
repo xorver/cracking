@@ -9,6 +9,12 @@ public class Line {
         this.p2 = p2;
     }
 
+    public String toEquationFormatString() {
+        double a = (p1.y - p2.y) / (p1.x - p2.x);
+        double b = p1.y - a * p1.x;
+        return String.format("y = %fx + %f", a, b);
+    }
+
     @Override
     public String toString() {
         return "Line{" +
