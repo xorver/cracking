@@ -1,5 +1,7 @@
 package ex613;
 
+import utils.Point;
+
 public class Line {
     public Point p1;
     public Point p2;

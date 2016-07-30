@@ -1,5 +1,7 @@
 package ex613;
 
+import utils.Point;
+
 /**
  * Created by lichon on 29/07/16.
  */

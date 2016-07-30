@@ -1,4 +1,4 @@
-package ex613;
+package utils;
 
 public class Point {
     public double x;

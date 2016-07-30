@@ -1,5 +1,7 @@
 package ex613;
 
+import utils.Point;
+
 public class Ex613 {
 
     public static Line find_half_split_line(Square sq1, Square sq2) {
