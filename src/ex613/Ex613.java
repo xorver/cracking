@@ -1,5 +1,6 @@
 package ex613;
 
+import utils.Line;
 import utils.Point;
 
 public class Ex613 {

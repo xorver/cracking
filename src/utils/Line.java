@@ -1,4 +1,4 @@
-package ex613;
+package utils;
 
 import utils.Point;
 
