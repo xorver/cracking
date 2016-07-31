@@ -42,15 +42,15 @@ public class Ex618 {
             return offset == hasher.string.length();
         if(pattern.charAt(0) == 'a') {
             if(aHash == -1)
-                aHash = hasher.hash(offset, aLength);
-            if(aHash != hasher.hash(offset, aLength))
+                aHash = hasher.hash(offset,  offset + aLength);
+            if(aHash != hasher.hash(offset, offset + aLength))
                 return false;
             return matches(pattern.substring(1), hasher, offset + aLength, aLength, aHash, bLength, bHash);
         }
         else {
             if(bHash == -1)
-                bHash = hasher.hash(offset, bLength);
-            if(bHash != hasher.hash(offset, bLength))
+                bHash = hasher.hash(offset, offset + bLength);
+            if(bHash != hasher.hash(offset, offset + bLength))
                 return false;
             return matches(pattern.substring(1), hasher, offset + bLength, aLength, aHash, bLength, bHash);
         }
@@ -58,6 +58,6 @@ public class Ex618 {
 
     public static void main(String[] args) {
 
-        System.out.println(matches("aabab", "catcatgocatgo"));
+        System.out.println(matches("bbaabab", "gocatcatgocatgo"));
     }
 }

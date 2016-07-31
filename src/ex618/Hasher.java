@@ -22,17 +22,18 @@ public class Hasher {
         }
 
         base = 0;
-        for(int i = 0; i<n; i++){
-            prefix[i] = (base + pow[i] * Character.getNumericValue(string.charAt(i))) % MOD;
-            base = (base + prefix[i]) % MOD;
+        for(int i = n - 1; i>=0; i--) {
+            prefix[i] = (base * BASE + Character.getNumericValue(string.charAt(i))) % MOD;
+            base = prefix[i];
         }
     }
 
     public int hash(int begin, int end) {
         if(end <= begin)
             return 0;
-        int prefixSum = begin == 0 ? 0 : prefix[begin - 1];
-        return (mod(prefix[end-1] - prefixSum) / pow[begin]) % MOD;
+        int rangeOrder = end - begin;
+        int suffixSum = end == n ? 0 : (prefix[end] * pow[rangeOrder]) % MOD;
+        return mod(prefix[begin] - suffixSum);
     }
 
     private int mod(int n)
