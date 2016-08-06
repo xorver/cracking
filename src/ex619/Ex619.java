@@ -1,6 +1,8 @@
 package ex619;
 
 
+import utils.Pair;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
