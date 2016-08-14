@@ -1,6 +1,6 @@
 package ex1625;
 
-public class Ex625 {
+public class Ex1625 {
 
 
     public static void main(String[] args) {

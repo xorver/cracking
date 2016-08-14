@@ -6,7 +6,7 @@ import utils.Point;
 
 import java.util.*;
 
-public class Ex614 {
+public class Ex1614 {
 
     public static Collection<Point> largestLine(List<Point> points) {
         List<Point> currentPoints;

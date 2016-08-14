@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Ex612 {
+public class Ex1612 {
 
     public static void main(String[] Args) {
         Map<String, Integer> mapping = new HashMap<>();

@@ -1,6 +1,6 @@
 package ex1618;
 
-public class Ex618 {
+public class Ex1618 {
 
     public static boolean matches(String pattern, String string) {
         Hasher hasher = new Hasher(string);

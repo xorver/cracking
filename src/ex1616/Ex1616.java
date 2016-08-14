@@ -3,7 +3,7 @@ package ex1616;
 import java.util.Arrays;
 import java.util.List;
 
-public class Ex616 {
+public class Ex1616 {
 
     public static Indices getIndices(List<Integer> list) {
         Indices result = new Indices();

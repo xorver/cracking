@@ -2,7 +2,7 @@ package ex1623;
 
 import java.util.Random;
 
-public class Ex623 {
+public class Ex1623 {
 
     public static int rand7() {
         Random random = new Random();

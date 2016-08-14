@@ -3,7 +3,7 @@ package ex1617;
 import java.util.Arrays;
 import java.util.List;
 
-public class Ex617 {
+public class Ex1617 {
 
     public static int largestSequence(List<Integer> list) {
         int best = 0;

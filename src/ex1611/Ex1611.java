@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class Ex611 {
+public class Ex1611 {
 
     public static Set<Integer> all_lengths(int s, int l, int k) {
         if(k == 0) {

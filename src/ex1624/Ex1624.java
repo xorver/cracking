@@ -5,7 +5,7 @@ import utils.Pair;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Ex624 {
+public class Ex1624 {
 
     public static Collection<Pair<Integer, Integer>> pairsWithSum(Collection<Integer> array, int sum) {
         Set<Integer> sumMinusValue = array.stream().map(x -> sum - x).collect(Collectors.toSet());

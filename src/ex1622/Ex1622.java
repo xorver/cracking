@@ -3,7 +3,7 @@ package ex1622;
 
 import java.util.*;
 
-public class Ex622 {
+public class Ex1622 {
 
     public static void printKMoves(int k) {
         Map<Point, String> board = new HashMap<>();

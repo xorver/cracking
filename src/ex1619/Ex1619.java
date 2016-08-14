@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Ex619 {
+public class Ex1619 {
 
     public static void addResult(List<Integer> result, int index, int value) {
         result.set(Math.abs(index), result.get(Math.abs(index)) + value);

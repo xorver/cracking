@@ -3,7 +3,7 @@ package ex1615;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Ex615 {
+public class Ex1615 {
 
     public static Score getScore(String actual, String guess) {
         Map<Character, Integer> map = new HashMap<>();
