@@ -1,6 +1,6 @@
 package utils;
 
-import ex614.VectorOperations;
+import ex1614.VectorOperations;
 
 public class Line {
     public Point p1;
